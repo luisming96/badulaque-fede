@@ -1,0 +1,25 @@
+extends layout.pug
+
+block content
+  .row
+    .twelve.columns
+      h2 Pide tus Chuches Favoritas
+
+  .row
+    .eight.columns.offset-by-two
+      form
+        .row
+          .twelve.columns
+            label(for="nombreInput") Nombre
+            input.u-full-width(type="text" placeholder="Tu nombre" id="nombreInput")
+
+        .row
+          .twelve.columns
+            label(for="productoInput") Producto
+            input.u-full-width(type="text" placeholder="Ej: Gominolas de fresa" id="productoInput")
+        
+        label(for="comentarioInput") Comentario
+        input.u-full-width(type="text" placeholder="Danos más detalles (marca, tipo...)" id="comentarioInput")
+
+        input.button.button-primary(type="submit" value="Enviar Petición")
+        a.button.btn-espaciado(href="index.html") Volver al Home

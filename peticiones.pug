@@ -18,8 +18,15 @@ block content
             label(for="productoInput") Producto
             input.u-full-width(type="text" placeholder="Ej: Gominolas de fresa" id="productoInput")
         
-        label(for="comentarioInput") Comentario
-        input.u-full-width(type="text" placeholder="Danos más detalles (marca, tipo...)" id="comentarioInput")
+        .row
+          .twelve.columns
+            label(for="comentarioInput") Comentario
+            input.u-full-width(type="text" placeholder="Danos más detalles (marca, tipo...)" id="comentarioInput")
 
-        input.button.button-primary(type="submit" value="Enviar Petición")
-        a.button.btn-espaciado(href="index.html") Volver al Home
+        .row
+          .twelve.columns
+            input.button.button-primary(type="submit" value="Enviar Petición")
+
+        .row
+          .twelve.columns
+            a.button(href="index.html") Volver al Home

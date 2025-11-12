@@ -10,32 +10,37 @@ block content
     .four.columns
       strong Pack Fiestero
       p El pack más completo para tu fiesta.
-      a.button.button-primary.u-full-width(href="#") Encargar
+      a.button.button-primary(href="#") Encargar
     .four.columns
       strong Pack Cumple
       p Todo lo necesario para un cumpleaños.
-      a.button.button-primary.u-full-width(href="#") Encargar
+      a.button.button-primary(href="#") Encargar
     .four.columns
       strong Pack Mix
       p Una selección variada de chuches.
-      a.button.button-primary.u-full-width(href="#") Encargar
+      a.button.button-primary(href="#") Encargar
 
   hr
 
-  h5 Crea tu Propio Pack
-  form
-    .row
-      .twelve.columns
-        p Elige los componentes de tu pack:
-        label
-          input(type="checkbox")
-          span.label-body Gominolas
-        label
-          input(type="checkbox")
-          span.label-body Chocolates
-        label
-          input(type="checkbox")
-          span.label-body Chicles
+  .row
+      h5 Crea tu Propio Pack
+      form
+        .row
+          .twelve.columns
+            p Elige los componentes de tu pack:
+            label
+              input(type="checkbox")
+              span.label-body Gominolas
+            label
+              input(type="checkbox")
+              span.label-body Chocolates
+            label
+              input(type="checkbox")
+              span.label-body Chicles
 
-    input.button.button-primary(type="submit" value="Guardar Selección")
-    a.button.btn-espaciado(href="index.html") Volver al Home
+        .row
+          .twelve.columns
+            input.button.button-primary(type="submit" value="Enviar Petición")
+        .row
+          .twelve.columns
+            a.button(href="index.html") Volver al Home

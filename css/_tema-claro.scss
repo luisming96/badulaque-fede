@@ -1,0 +1,24 @@
+@use 'normalize';
+@use 'skeleton';
+@use 'comunes';
+@use 'tam_lg';
+
+body {
+  font-family: 'Raleway', 'HelveticaNeue', sans-serif;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+a {
+  color: #1EAEDB;
+}
+  
+nav a {
+  color: #1EAEDB;
+}
+
+.button.button-primary {
+  background-color: #1EAEDB;
+  border-color: #1EAEDB;
+  color: #FFF;
+}

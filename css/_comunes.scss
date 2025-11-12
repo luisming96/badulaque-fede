@@ -1,0 +1,50 @@
+header {
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #E1E1E1;
+  margin-bottom: 2rem;
+}
+
+header h4 {
+  margin-bottom: 1rem;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+footer {
+  border-top: 1px solid #E1E1E1;
+  padding: 3rem 0;
+  margin-top: 3rem;
+  color: #888;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.placeholder-box {
+  background-color: #E1E1E1;
+  border: 1px solid #CCC;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+}
+
+.amigos-card {
+  margin-bottom: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: right;
+}
+
+header nav li {
+  margin-bottom: 0;
+  text-align: left;
+}

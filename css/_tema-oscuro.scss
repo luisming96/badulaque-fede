@@ -3,23 +3,26 @@
 @use 'comunes';
 @use 'tam_lg';
 
+:root {
+  --fuenteGeneral: 'Lato', 'HelveticaNeue', sans-serif;
+  --colorFondo: #fce4ec;     
+  --colorTexto: #5c4e56;      
+  --colorPrincipal: #e91e63;  
+}
+
 body {
-  font-family: 'Lato', 'HelveticaNeue', sans-serif;
-  background-color: #fce4ec;
-  color: #5c4e56;
+  font-family: var(--fuenteGeneral);
+  background-color: var(--colorFondo);
+  color: var(--colorTexto);
 }
 
-a {
-  color: #e91e63;
-}
-
-nav a {
-  color: #e91e63;
+a, nav a {
+  color: var(--colorPrincipal);
 }
 
 a.button.button-primary,
 input.button.button-primary {
-  background-color: #e91e63;
-  border-color: #e91e63;
+  background-color: var(--colorPrincipal);
+  border-color: var(--colorPrincipal);
   color: #FFF;
 }

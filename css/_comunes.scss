@@ -41,10 +41,20 @@ header nav ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  text-align: right;
 }
 
 header nav li {
   margin-bottom: 0;
-  text-align: left;
+}
+
+.menu-vertical {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.galeria-amigos .columns {
+  margin-left: 0 !important;
+  margin-bottom: 2rem;       
+  padding: 0 10px;           
 }

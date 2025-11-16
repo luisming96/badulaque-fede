@@ -1,24 +1,29 @@
 @use 'normalize';
 @use 'skeleton';
+@use 'variables'; 
 @use 'comunes';
 @use 'tam_lg';
 
+:root {
+  --fuenteGeneral: 'Raleway', 'HelveticaNeue', sans-serif;
+  --colorFondo: #FFFFFF;
+  --colorTexto: #222222;
+  --colorPrincipal: #1EAEDB;
+}
+
 body {
-  font-family: 'Raleway', 'HelveticaNeue', sans-serif;
-  background-color: #FFFFFF;
-  color: #222222;
+  font-family: var(--fuenteGeneral);
+  background-color: var(--colorFondo);
+  color: var(--colorTexto);
 }
 
-a {
-  color: #1EAEDB;
-}
-  
-nav a {
-  color: #1EAEDB;
+a, nav a {
+  color: var(--colorPrincipal);
 }
 
-.button.button-primary {
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
+a.button.button-primary,
+input.button.button-primary {
+  background-color: var(--colorPrincipal);
+  border-color: var(--colorPrincipal);
   color: #FFF;
 }
